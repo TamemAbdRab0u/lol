@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "work sans" , "sans-serif";
+}
+
+.parent{
+    margin-top: 100px;
+    background-color: rgba(13, 0, 57, 0.608);
+}
+.champion{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.champion div img{
+    width: 150px;
+    border: 3px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.champion div img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 1px rgb(255, 252, 252);
+}
+.champion div h3{
+    text-align: center;
+}
